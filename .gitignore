@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+
+# Data, experiment outputs, and checkpoints
+datasets/
+checkpoints/
+outputs/
+models/
+
+# Large model and artifact files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+*.pkl
+*.pickle

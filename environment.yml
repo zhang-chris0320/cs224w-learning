@@ -1,0 +1,15 @@
+name: cs224w-learning
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - networkx
+  - jupyter
+  - scipy
+  - scikit-learn
+  - pytorch
